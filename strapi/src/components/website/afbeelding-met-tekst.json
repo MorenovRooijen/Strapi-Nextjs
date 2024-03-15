@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_website_afbeelding_met_teksts",
+  "info": {
+    "displayName": "Afbeelding met tekst",
+    "icon": "rotate"
+  },
+  "options": {},
+  "attributes": {
+    "Afbeelding": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Titel": {
+      "type": "string"
+    },
+    "Tekst": {
+      "type": "text"
+    },
+    "Positie": {
+      "type": "enumeration",
+      "enum": [
+        "Links",
+        "Rechts"
+      ]
+    }
+  }
+}
